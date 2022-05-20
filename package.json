@@ -1,26 +1,19 @@
 {
-  "name": "storytellingbr",
+  "name": "guiapress",
   "version": "1.0.0",
-  "description": "app ",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xzlogan/storytellingBR.git"
-  },
-  "author": "SMMO",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/xzlogan/storytellingBR/issues"
-  },
-  "homepage": "https://github.com/xzlogan/storytellingBR#readme",
   "dependencies": {
-    "body-parser": "^1.20.0",
-    "ejs": "^3.1.8",
-    "express": "^4.18.1",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.19.1"
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.21.0",
+    "slugify": "^1.6.5"
   }
 }
