@@ -47,6 +47,4 @@ app.listen(8080, () => {
 })
 
 // Router
-app.use("/",categoriesController);    
-app.use("/",articlesController);
 app.use("/",homeController);
