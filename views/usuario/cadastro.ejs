@@ -1,0 +1,43 @@
+<%- include ../template/header.ejs %>
+<body>
+    <center>
+        
+        <div class="content">
+         <div class="text">Cadastro de Usuário</div>
+          <form action="#">
+            <div class="field">
+              <span class="fa fa-user"></span>
+              <input type="text" placeholder="Nome" required>
+           
+            </div>
+            <div class="field">
+              <span class="fa-solid fa-envelope"></span>
+              <input type="text" placeholder="E-mail" required>
+              
+            </div><br>
+
+            <div class="field" >
+                <span class="fa fa-user"></span>
+                <input type="text" placeholder="Usuário" required>
+
+            </div><br>
+
+            <div class="field" id="input">
+                <span class="fa fa-lock"></span>
+                <input type="password"  placeholder="Senha" required>
+                
+            </div><br>
+
+            <div class="field" id="input">
+                <span class="fa fa-lock"></span>
+                <input type="password" placeholder="Confirmar senha" required>
+                
+            </div><br>
+
+            <button>Cadastrar</button>
+            </div>
+            </form>
+      </center> 
+        
+</body>
+<%- include ../template/footer.ejs %>

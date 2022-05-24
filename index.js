@@ -7,6 +7,8 @@ const connection = require("./config/database");
 
 const homeController = require("./controllers/HomeController"); 
 const homeModel = require("./models/HomeModel"); 
+const UsuarioControler = require("./controllers/UsurarioController");
+
 
 
 
@@ -41,6 +43,7 @@ app.get("/", (req, res) => {
 })
 
 
+
 // iniciar o Servidor 
 app.listen(8080, () => {
     console.log("O servidor está rodando!")
@@ -48,3 +51,4 @@ app.listen(8080, () => {
 
 // Router
 app.use("/",homeController);
+app.use("/",UsuarioControler);
